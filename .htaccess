@@ -1,0 +1,6 @@
+Options -Indexes
+DirectoryIndex index.php
+
+<FilesMatch "^(auth\.php|config\.php|bootstrap\.php|layout\.php|dashboard\.php|validation\.php|actions\.php|catalog\.php|phone\.php|database\.sql|upgrade-accounts\.sql|README\.md|Dockerfile|docker-compose\.yml)$">
+    Require all denied
+</FilesMatch>
